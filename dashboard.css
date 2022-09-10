@@ -1,0 +1,253 @@
+* { margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+.okay {background-color: white;}
+
+header {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background: white;
+    font-weight: 500;
+    background-color: white;
+    
+    }
+
+.logo li {
+        display:  inline-block;
+        padding: 0px 20px;
+        font-weight: 900;
+        
+        }
+
+ .logo li a { 
+            transition: all 0.3s ease 0s;
+            color: orange;
+        font-weight: bolder;
+        text-decoration: none;
+        
+        }
+
+ .logo li a:hover {color: #a91900;
+            font-size: 20px;}
+            
+    
+   .accountbalances {border-radius: 20px;
+border-style: groove;
+margin-top: 20px;
+padding: 10px;
+border-bottom-color: blueviolet;
+font-weight: bolder;
+font-size: medium;
+
+color: black;}  
+
+
+.balance {font-size: x-large;
+}
+
+.ledgerbalance {
+    border-radius: 20px;
+    border-style: groove;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom-color: blueviolet;
+    font-weight: bolder;
+    font-size:medium;
+    background:-webkit-linear-gradient(1deg, rgb(69, 206, 80), white);
+    color: rgb(10, 0, 0);
+
+}
+.Lbalance { font-size: x-large;}
+
+.loan {
+
+    border-radius: 20px;
+    border-style: groove;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom-color: blueviolet;
+    font-weight: bolder;
+    font-size: medium;
+ 
+    color: rgb(14, 13, 13);
+
+}
+
+.Loan { font-size:x-large;}
+
+.intro {font-size: large;
+font-weight: bolder;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.intro2 {
+    color: darkgrey;
+    font-weight: 500px;
+    font-size: 20px;
+
+}
+ .quick {background-color: orange;
+}
+
+
+
+.logo .quick {color: white;
+font-size: 20px;
+
+padding :10px;
+border-radius: 50px;
+}
+
+.download { background-color: rgb(81, 160, 88);}
+.logo .download {color: rgb(252, 247, 247);
+    font-size: 20px;
+    padding :10px;
+    border-radius: 50px; }
+
+    .apply {background-color: green;}
+
+    .logo .apply  {color: rgb(248, 248, 248);
+        font-size: 20px;
+        padding :10px;
+        border-radius: 50px;}
+
+        .profile {background-color: yellowgreen;}
+
+        .logo .profile {color: rgb(253, 253, 253);
+            font-size: 20px;
+            padding :10px;
+            border-radius: 50px;}
+
+            .signout {background-color: black;}
+
+            .logo .signout {
+                color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding :10px;
+    border-radius: 50px;
+            }
+
+        
+
+        .downloads  {color: black;
+            text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .downloads  { text-align: center;
+        font-size: 20px; }
+
+    .atmcard2 { border-radius: 16px;
+    border-style: groove;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 15px;
+    background-color: green;
+    border-style: border-box;
+  
+}
+
+.visa {float: right;
+padding-right: 10px;
+font-size: 25px;
+color: white;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+}
+
+.incorrect { text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 50px;
+}
+
+ .bankname { 
+     text-align: center;
+font-size: 40px;
+color: rgb(255, 253, 253);
+font-weight: x-large;
+
+}
+.ccname { 
+    text-align: center;
+font-size: 30px;
+color: rgb(255, 253, 253);
+font-weight: x-large;
+margin-top:-30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.ccholder { color: white;
+margin-right: 10px;
+padding-left: 20px;
+padding-top: 10px;
+font-size: 12px;}
+
+.cexpires { color: white;
+font-size: 15px;
+padding-left: 10px;
+
+}
+
+.type {float: right;
+margin-bottom: 20px;
+padding-bottom: 500px;
+}
+
+.cards { text-align: center;}
+
+.card2 {text-align: center;
+
+}
+
+
+.cards { padding-top: 30px;
+border-radius: 30px;
+border-style: groove;
+border-left:hidden;
+border-right: hidden;
+border-bottom: hidden;
+background-color: white;
+}
+
+.cards :hover{ 
+  transition-property: all;
+  transform: rotateY(360deg);
+    width: 600px;
+    height: 300px;
+}
+
+.card2 {
+    padding-top: 30px;
+    border-radius: 50px;
+    border-style: groove;
+    border-left:hidden;
+    border-right: hidden;
+    border-top: hidden;
+    background-color: white;
+   
+}
+
+.card2 :hover{
+    transition-property: all;
+  transform: rotateY(360deg);
+    width: 600px;
+    height: 300px;
+}
+
+
+body {
+    animation: colorchange 5s linear infinite
+}
+
+@keyframes colorchange {
+30% { background-color: hsl(120, 13%, 91%);}
+50% { background-color:rgb(173, 173, 173)}
+
+}
